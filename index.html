@@ -1,27 +1,18 @@
 <!DOCTYPE html>
 <html>
+
+<head>
+	<title>Tic Tac Toe</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
 <body>
+	<header>
+		<h1 id="head">Tic Tac Toe Game</h1>
+	</header>
 
-<p>Image to use:</p>
-
-<img id="scream" width="220" height="277"
-src="4farby.jpg" alt="The Scream">
-
-<p>Canvas:</p>
-
-<canvas id="myCanvas" width="240" height="297"
-style="border:1px solid #d3d3d3;">
-Your browser does not support the HTML5 canvas tag.
-</canvas>
-
-<script>
-window.onload = function() {
-    var canvas = document.getElementById("myCanvas");
-    var ctx = canvas.getContext("2d");
-    var img = document.getElementById("scream");
-   ctx.drawImage(img, 10, 10);
-};
-</script>
+	<h1 id="result"></h1>
 
 </body>
 </html>
