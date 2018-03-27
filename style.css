@@ -3,17 +3,13 @@
     padding: 0;
 }
 
-
 html {
-	background-color: azure;
-
-
+    background-color: azure;
 }
 
 header {
     text-align: center;
     margin: 50px;
-    
 }
 
 #head {
@@ -28,24 +24,13 @@ h1#result {
     color: chocolate;
     text-align: center;
     margin-bottom: 30px;
-    
 }
 
 canvas {
     border: 1px solid dodgerblue;
     background-color: lightyellow;
     text-align: center;
-    
 }
-
-canvas:hover {
-    background-color: skyblue;
-}
-
-button:hover {
-    background-color: darkgreen;
-}
-
 
 #game {
     position: relative;
@@ -57,8 +42,8 @@ button:hover {
 #tic {
     position: relative;
     margin: 0 auto;
-    width: 318px;
     height: 318px;
+    width: 318px;
     display: inline-block;
     float: left;
 }
@@ -67,9 +52,9 @@ button:hover {
     position: relative;
     width: 318px;
     height: 318px;
+    text-align: center;
     display: inline-block;
     float: right;
-    text-align: center;
 }
 
 p {
@@ -84,14 +69,21 @@ h2 {
 }
 
 button {
+    margin-top: 15px;
     width: 200px;
     height: 50px;
-    margin-top: 15px;
-    border: 1px solid black;
     font-size: 20px;
     font-weight: bold;
-    font-family: cursive;
     background-color: limegreen;
     color: gold;
+    font-family: cursive;
+    border: 1px solid black;
 }
 
+canvas:hover {
+    background-color: lightblue;
+}
+
+button:hover {
+    background: green;
+}
